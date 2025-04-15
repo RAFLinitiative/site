@@ -1,0 +1,220 @@
+/* GLOBAL STYLES */
+body {
+    background-color: #171717;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: Courier, monospace;
+    font-size: 70px;
+    margin: 20px 0;
+}
+
+h2 {
+    font-family: Courier, monospace;
+    font-size: 40px;
+    margin: 5px 0;
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+
+h3 {
+    font-family: Courier, monospace;
+    font-size: 24px;
+    margin: 30px 0;
+	margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 10px auto;
+    max-width: 600px;
+	margin-bottom: 10px;
+}
+
+.logo {
+    width: 250px;
+    margin-top: 0px;
+}
+
+.diagram {
+    width: 450px;
+    margin: 20px auto;
+}
+
+section {
+    padding: 50px 20px;
+    border-bottom: 1px solid white;
+}
+
+.raffle-text {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: monospace;
+}
+
+.raffle-text .bold {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  margin-top: 20px;
+}
+
+.raffle-text .highlight {
+  font-weight: bold;
+  color: #ffd700; /* gold */
+  word-break: break-all;
+  font-size: 15px;
+}
+
+
+/* BUTTON STYLES */
+.buttons {
+    margin-top: 40px;
+}
+
+.buttons a {
+    display: inline-block;
+    margin: 8px;
+    padding: 12px 24px;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.buttons a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* TABLE STYLES */
+.allocation-table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 320px;
+}
+
+.allocation-table th, .allocation-table td {
+    border: 1px solid white;
+    padding: 12px 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.allocation-table th {
+    background-color: #222;
+    font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+    padding: 50px 20px;
+}
+
+.footer-links {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .buttons a {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+
+    .diagram {
+        width: 80%;
+    }
+
+    .allocation-table {
+        width: 90%;
+    }
+}
+
+/* HOLDERS TREASURY SECTION */
+.claim-table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 320px;
+}
+
+.claim-table th, .claim-table td {
+    border: 1px solid white;
+    padding: 12px 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.claim-table th {
+    background-color: #222;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+.quote {
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: Courier, monospace;
+    font-weight: bold;
+    color: white;
+}
+
+/* LIQUIDITY ADD TABLE STYLES */
+.lp-table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 320px;
+}
+
+.lp-table th, .lp-table td {
+    border: 1px solid white;
+    padding: 12px 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.lp-table th {
+    background-color: #222;
+    font-weight: bold;
+}
+
+html {
+	scroll-behavior: smooth;
+}
